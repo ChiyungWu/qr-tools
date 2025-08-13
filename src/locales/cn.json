@@ -1,0 +1,12 @@
+{
+  "toast": {
+    "languageUpdated": "已更新为选择的语言",
+    "themeDark": "已切换到深色主题",
+    "themeLight": "已切换到浅色主题"
+  },
+  "selectLanguage": "选择语言",
+  "queryIp": "查询 IP",
+  "yourIp": "您的 IP 地址",
+  "apiError": "服务器无响应",
+  "apiRetry": "请稍后再试！"
+}

@@ -1,0 +1,12 @@
+{
+  "toast": {
+    "languageUpdated": "Idioma atualizado",
+    "themeDark": "Alterado para tema escuro",
+    "themeLight": "Alterado para tema claro"
+  },
+  "selectLanguage": "Selecionar idioma",
+  "queryIp": "Consultar IP",
+  "yourIp": "Seu endereço IP",
+  "apiError": "Servidor não está respondendo",
+  "apiRetry": "Por favor, tente novamente mais tarde!"
+}

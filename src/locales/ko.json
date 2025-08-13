@@ -1,0 +1,12 @@
+{
+  "toast": {
+    "languageUpdated": "선택한 언어로 업데이트되었습니다",
+    "themeDark": "다크 테마로 변경되었습니다",
+    "themeLight": "라이트 테마로 변경되었습니다"
+  },
+  "selectLanguage": "언어 선택",
+  "queryIp": "IP 조회",
+  "yourIp": "귀하의 IP 주소",
+  "apiError": "서버가 응답하지 않습니다",
+  "apiRetry": "나중에 다시 시도해 주세요!"
+}
