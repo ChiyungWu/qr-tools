@@ -50,7 +50,6 @@ async function dynamicLocale(nextLang: WorkLang) {
 }
 
 export async function initLocale() {
-  console.log(i18n.language);
   const findLang = (i18n.language || 'en').split('-')[0] as string;
   const nextLang = SUPPORTED_LANGUAGES.includes(findLang as WorkLang)
     ? (findLang as WorkLang)
