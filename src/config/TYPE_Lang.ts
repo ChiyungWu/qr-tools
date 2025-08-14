@@ -1,4 +1,4 @@
-export const SUPPORTED_LANGUAGES = [
+export const LIST_Lang = [
   'en',
   'tw',
   'cn',
@@ -11,4 +11,4 @@ export const SUPPORTED_LANGUAGES = [
   'ru',
   'ar',
 ] as const;
-export type WorkLang = (typeof SUPPORTED_LANGUAGES)[number];
+export type TYPE_Lang = (typeof LIST_Lang)[number];

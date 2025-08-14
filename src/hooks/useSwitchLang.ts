@@ -3,7 +3,7 @@ import { toast } from 'react-hot-toast';
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { type WorkLang } from '@/config/workLang';
+import { type TYPE_Lang } from '@/config/TYPE_Lang';
 import { switchLocale } from '@/utils/switchLocale';
 
 export function useSwitchLang() {
@@ -11,7 +11,7 @@ export function useSwitchLang() {
   const [webLang, setWebLang] = useState(i18n.language);
 
   return useCallback(
-    async (nextLang: WorkLang) => {
+    async (nextLang: TYPE_Lang) => {
       if (nextLang !== webLang) {
         setWebLang(nextLang);
         await switchLocale(nextLang);

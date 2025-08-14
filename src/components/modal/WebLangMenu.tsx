@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import clsx from 'clsx';
 
-import { SUPPORTED_LANGUAGES, type WorkLang } from '@/config/workLang';
+import { LIST_Lang, type TYPE_Lang } from '@/config/TYPE_Lang';
 import { useSwitchLang } from '@/hooks/useSwitchLang';
 
 interface ModalProps_WebLang {
@@ -18,7 +18,7 @@ export function WebLangMenu({ isModalOpen, onCloseModal }: ModalProps_WebLang) {
   const switchLang = useSwitchLang();
   const showKnownName = true;
 
-  const onClickLang = (nextLang: WorkLang) => {
+  const onClickLang = (nextLang: TYPE_Lang) => {
     onCloseModal();
     switchLang(nextLang);
   };
@@ -59,10 +59,10 @@ export function WebLangMenu({ isModalOpen, onCloseModal }: ModalProps_WebLang) {
         <h2 className="text-lg font-semibold">{t('selectLanguage')}</h2>
         <hr className="my-4" />
         <ul className="space-y-2">
-          {SUPPORTED_LANGUAGES.map((nextLang) => (
+          {LIST_Lang.map((nextLang) => (
             <li key={nextLang}>
               <button
-                onClick={() => onClickLang(nextLang as WorkLang)}
+                onClick={() => onClickLang(nextLang as TYPE_Lang)}
                 className={clsx(
                   'w-full text-left px-3 py-2 rounded',
                   'hover:font-bold hover:bg-yellow-500 hover:text-black',
